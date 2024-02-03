@@ -2,7 +2,7 @@
 
 partiamo con lo scan delle porte
 
-### enum
+### ENUM
 
 ```bash
 nmap panda.thm -sV -sC 
