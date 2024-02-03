@@ -45,5 +45,32 @@ e ecco la password! unzippiamo il file
 unzip test.zip
 ```
 
+```bash
+cat creds.txt
+```
+
+BINGO! abbiamo l'utente è la password
+
+entriamo in ssh
+
+```bash
+ssh fortuna@fortune.thm
+password:
+```
+
+# PRIVESC
+
+prima che inizi consiglio di visitare il sito GTFO.BINS per spunti interessanti sul privilege escalation
+
+vediamo che comandi da superuser possiamo lanciare
+
+```bash
+sudo -l
+```
+
+per il resto lascio a voi il ragionamento 
+
+CONSIGLIO!!!(dovete aprire una shell)
+
 
 
