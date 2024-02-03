@@ -9,7 +9,7 @@ nmap tyler.thm -sV -sC
 ```
 ed ecco spuntare a schermo la porta 445
 
-coleghiamoci e vediamo cosa ci offre
+colleghiamoci e vediamo cosa ci offre
 
 ## SMB
 
