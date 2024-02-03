@@ -1,4 +1,5 @@
 # lion
+# ENUM
 partiamo con uno scan 
 
 ```bash
@@ -10,6 +11,7 @@ troviamo 2 porte interessanti la porta 8080 e la 1337
 avete più possibilità io ho individuato 2 problemi principali di questa web app 
 principalmente nostromo usa un paramentro http_verify che permette all'attacante di inviare comandi 
 in questo caso vi consiglio di avviare metasploit
+# exploitation
 ```bash
 msfconsole
 ```
