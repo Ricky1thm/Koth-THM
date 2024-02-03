@@ -12,7 +12,6 @@ le macchine che analizziamo sono:
 - Sherk
 - Tyler
 - Lion
-- Hogwarts
 - Space-Jam
 - offline
 
