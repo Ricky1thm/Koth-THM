@@ -34,7 +34,7 @@ cosa fare quando le password fanno schifo???
 
 ## BRUTE FORCE
 
-ecco qua il programma preferito HYDRA
+ecco qua il mio programma preferito HYDRA
 
 facciamo il comando 
 ```bash
