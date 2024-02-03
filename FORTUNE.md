@@ -30,3 +30,20 @@ con questo comando successiamo lo andiamo a prenderlo
 nc fortune.thm 3333 | base64 -d > test.zip
 ```
 
+facendo l'unzip del file a quanto pare serve una password. troppo semplice per noi 
+
+```bash
+zip2john test.zip > hash.txt
+```
+
+andiamoci a prendere l'hash della password e crackiamola!
+```bash
+john hash.txt
+```
+e ecco la password! unzippiamo il file 
+```bash
+unzip test.zip
+```
+
+
+
