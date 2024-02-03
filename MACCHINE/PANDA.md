@@ -42,12 +42,11 @@ ecco qua il nostro utente po
 
 accediamo alla pagina
 ## REVERSE SHELL
-
+(spiegazione)
 per chi avesse già esperienza con wordpress saltare questa spiegazione invece per chi non avesse mai visto questo CMS ci sono delle fasi che dovete imparare
-
 wordpress lavora principalmente a pagine sotto pagine e temi molti di quest'ultimi sono vulnerabili perchè vanno ad aggiungere codice che potrebbe non essere controllato o che può avere insicurezze del codice 
-
-quello che andrò a fare nei passaggi successivi userà un vulnerabilità del non controllo del codice 
+quello che andrò a fare nei passaggi successivi userà un vulnerabilità del non controllo del codice.
+(spiegazione)
 
 su word press per andare a modificare i vari path del cms c'è un menu a tendina sulla destra. bene apritelo e andate nella sezione APPARENCE una volta fatto click vi si dovrebbe aprire un sotto menu con varie opzioni 
 andate a selezionare editor e successivamente vi si apre un menu sulla pagina (sulla destra) andate in questo menu e selezionate la sezione comment.php
