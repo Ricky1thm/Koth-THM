@@ -116,3 +116,4 @@ ora diamo i permessi di avvio a linpeas.sh
 ```bash
 chmod +x linpeas.sh
 ```
+abbiamo trovato un vulnerabilità nel comando vim (controllate gtfo.bins ed è fatta)
