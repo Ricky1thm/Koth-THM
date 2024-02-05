@@ -1,7 +1,8 @@
 # FORTUNE
 
-### enum
-si parte sempre con uno scan 
+# ENUMERAZIONE
+ 
+scan con nmap per verificare le porte aperte e le versioni dei servizi che ci girano sopra
 ```bash
 nmap fortune.thm -sV -sC 
 ```
@@ -56,7 +57,7 @@ ssh fortuna@fortune.thm
 password:
 ```
 
-# PRIVESC
+# PRIVILEGE ESCALATION
 
 prima che inizi consiglio di visitare il sito GTFO.BINS per spunti interessanti sul privilege escalation
 
