@@ -1,6 +1,6 @@
 # PRODUCTION
 
-### ENUM
+## ENUMERAZIONE
 facciamo uno scan delle porte
 ```bash
 nmap production.thm -sV -sC 
@@ -35,7 +35,7 @@ ssh -i id_rsa ashu@10.10.224.175
 
 facciamo privesc
 
-## privesc
+## PRIVILEGE ESCALATION
 
 ```bash
 sudo -l
