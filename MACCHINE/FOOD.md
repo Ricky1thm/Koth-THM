@@ -1,12 +1,13 @@
 # FOOD
 
-### enum
-si parte sempre con uno scan.
+### ENUMERAZIONE
+scan della macchina per torvare possibili porte e la versione di queste.
+
 ```bash
 nmap food.thm -sV -sC 
 ```
 
-### servizio sql
+### SERVIZIO SQL
 
 ho notato che è aperto un servizio sql adiamo ad analizzarlo meglio con nmap.
 
@@ -17,10 +18,12 @@ quando nmap finisce lo scan ci restituisce dati molto utili, per esempio che l'u
 e questo ci da carta bianca sulla conessione all'sql.
 
 quindi mi collego all'sql.
+
 ```bash
 mysql -u root -h 10.10.79.244 -p
 ```
 successivamente mi faccio dumpare tutti i database presenti.
+
 ```bash
 show databases;
 ```
@@ -59,7 +62,7 @@ ecco un utente con la sua password e un flag!
 
 entriamo in ssh.
 
-## ssh
+## SSH
 ```bash
 ssh ramen@food.thm
 ```
