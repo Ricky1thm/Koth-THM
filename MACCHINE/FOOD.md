@@ -50,12 +50,10 @@ adesso abbiamo trovato una tables di nome user andiamo a leggere cosa c'è dentr
 SELECT * FROM User;
 ```
 
-+----------+---------------------------------------+
-| username | password                              |
-+----------+---------------------------------------+
-| ramen    | ***************                       |
-| flag     | ************************************* |
-+----------+---------------------------------------+
+
+ramen    ***************                       
+flag     ************************************* 
+
 
 ecco un utente con la sua password e un flag!
 
