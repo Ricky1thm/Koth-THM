@@ -2,7 +2,7 @@
 
 
 
-## ENUM
+## ENUMERAZIONE
 avviamo una scansione sulla macchina
 ```bash
 sudo nmap -sC -sV OFFLINE.thm
