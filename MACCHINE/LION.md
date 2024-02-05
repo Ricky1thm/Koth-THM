@@ -54,7 +54,7 @@ ssh -i sshkey gloria@<lion.thm> -p 1337
 ```
 ottimo siamo sull'ssh andiamo a fare il privesc
 
-## privilege escalation
+## PRIVILEGE ESCALATION
 
 scarichiamo LinPEAS.sh sulla nostra macchina e passiamolo sulla macchina attaccata
 
