@@ -1,6 +1,6 @@
 # FOOD
 
-### ENUMERAZIONE
+## ENUMERAZIONE
 
 scan della macchina per torvare possibili porte e la versione di queste.
 
@@ -16,7 +16,7 @@ nmap food.thm -sV --script *sql*
 quando nmap finisce lo scan ci restituisce dati molto utili, per esempio che l'utente di mysql è root:root
 e questo ci da carta bianca sulla conessione all'sql.
 
-### SERVIZIO SQL
+## SERVIZIO SQL
 
 quindi colleghiamoci all'sql e vediamo che dati contiene
 
@@ -71,7 +71,7 @@ facendo un controllo dei permessi che abbiamo.
 ho notato che possiamo fare davvero molto poco, quindi sono andato a cercare le vulnerabilità per quanto riguarda GNU, e ne ho trovata una davvero interessate
 andiamo ad utilizzarla.
 
-## PRIVESC
+## PRIVILEGE ESCALATION
 
 https://www.exploit-db.com/exploits/41154 ho usato questo exploit per fare priv esc,
 questo exploit sfrutta un autenticazione di livello maggiore(root) e ci permette tramite un vulnerabilità presente in 
