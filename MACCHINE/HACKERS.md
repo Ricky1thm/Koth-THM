@@ -63,7 +63,8 @@ vabbè risolviamo. crackiamola!!
 ssh2john id_rsa > ssh_hash.txt
 john ssh_hash.txt --format=ssh --wordlist=/usr/share/wordlists/rockyou.txt
 ```
-ed ecco la password grazie. colleghiamoci in ssh
+ed ecco la password. colleghiamoci in ssh
+## SSH
 ```bash
 ssh -i id_rsa gcrawford@hackers.thm
 ```
