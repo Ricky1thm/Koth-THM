@@ -28,7 +28,7 @@ con questo comando successivamente lo prendiamo.
 ```bash
 nc fortune.thm 3333 | base64 -d > test.zip
 ```
-## John
+## JOHN
 
 facendo l'unzip del file a quanto pare serve una password.
 
