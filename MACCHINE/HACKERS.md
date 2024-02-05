@@ -57,7 +57,7 @@ get id_rsa
 ```
 
 controllando questa id_rsa ha un altra password....
-
+## JOHN
 vabbè risolviamo. crackiamola!!
 ```bash
 ssh2john id_rsa > ssh_hash.txt
@@ -68,7 +68,7 @@ ed ecco la password grazie. colleghiamoci in ssh
 ssh -i id_rsa gcrawford@hackers.thm
 ```
 
-## privesc
+## PRIVILEGE ESCALATION
 
 vediamo cosa possiamo fare
 ```bash
