@@ -2,7 +2,7 @@
 
 ### ENUMERAZIONE
 
-scan della macchina per torvare possibili porte e la versione di queste. spiegazione [NMAP](TOOLS.md)
+scan della macchina per torvare possibili porte e la versione di queste. spiegazione [NMAP](Koth-THM/TOOLS.md)
 
 ```bash
 nmap food.thm -sV -sC 
