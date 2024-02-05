@@ -2,7 +2,7 @@
 
 partiamo con lo scan delle porte
 
-### ENUM
+## ENUMERAZIONE
 
 ```bash
 nmap panda.thm -sV -sC 
@@ -31,7 +31,6 @@ controlliamo
 http://panda.thm/wordpress/wp-login.php
 ```
 
-eccola 
 
 facciamo uno scan insieme al brute force con WPSCAN
 ```bash
@@ -42,11 +41,11 @@ ecco qua il nostro utente po
 
 accediamo alla pagina
 ## REVERSE SHELL
-(spiegazione)
+### spiegazione
 per chi avesse già esperienza con wordpress saltare questa spiegazione invece per chi non avesse mai visto questo CMS ci sono delle fasi che dovete imparare
 wordpress lavora principalmente a pagine sotto pagine e temi molti di quest'ultimi sono vulnerabili perchè vanno ad aggiungere codice che potrebbe non essere controllato o che può avere insicurezze del codice 
 quello che andrò a fare nei passaggi successivi userà un vulnerabilità del non controllo del codice.
-(spiegazione)
+
 
 su word press per andare a modificare i vari path del cms c'è un menu a tendina sulla destra. apritelo e andate nella sezione APPARENCE, una volta fatto click vi si dovrebbe aprire un sotto menu con varie opzioni.
 andate a selezionare editor e successivamente vi si apre un menu sulla pagina (sulla destra), andate in questo menu e selezionate la sezione comment.php.
@@ -71,7 +70,7 @@ ora tutto è pronto.
 chiamiamo il nostro php tramite url (provate ad indovinare qual'è l'url) (hint: ricordatevi dove avete salvato il php)
 
 ecco qua che si avvia la nostra shell con l'utente shifu facciamo privesc
-## PRIVESC
+## PRIVILEGE ESCALATION
 
 ```bash
 find / -perm -4000 2>/dev/null
