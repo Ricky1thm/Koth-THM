@@ -5,15 +5,15 @@ principalmente ho notato che nella community italiana ci sono pochi spunti da do
 se vi ritrovate a questo punto allora questo articolo fa per voi. ho provato il pen test su tutte le macchine del koth e spero che questi consigli possano darvi un spunto e possano farvi migliorare.
 le macchine che analizziamo sono:
 
-- Fortune
-- Hackers
-- Panda
-- Production
-- Sherk
-- Tyler
-- Lion
-- Space-Jam
-- offline
+- [Fortune](MACCHINE/FORTUNE.md)
+- [Hackers](MACCHINE/HACKERS.md)
+- [Panda](MACCHINE/PANDA.md)
+- [Production](MACCHINE/PRODUCTION.md)
+- [Sherk](MACCHINE/SHREK.md)
+- [Tyler](MACCHINE/TYLER.md)
+- [Lion](MACCHINE/LION.md)
+- [Space-Jam](MACCHINE/SPACE_JAM.md)
+- [offline](MACCHINE/OFFLINE.md)
 - [food](MACCHINE/FOOD.md)
 - [panda](MACCHINE/PANDA.md)
 
