@@ -1,6 +1,6 @@
 # Tyler
 
-## ENUM
+## ENUMERAZIONE
 partiamo con una enumerazione e scan dei serizi
 
 
@@ -30,7 +30,7 @@ nmap tyler.thm -p-
 
 ecco un altra porta 6555
 
-## porta 6555
+## PORTA 6555
 
 ```bash
 nc tyler.thm 6555
@@ -63,7 +63,7 @@ quindi
 chmod 600 id_rsa
 ```
 successivamente 
-
+## SSH
 ```bash
 ssh tdurden@tyler.thm -i id_rsa
 ```
@@ -105,7 +105,7 @@ librenms:x:996:993::/opt/librenms:/bin/bash
 
 si siamo sulla macchina main facciamo il privesc
 
-## Privesc
+## PRIVILEGE ESCALATION
 andiamo su una cartella dove possiamo caricare file e carichiamo il programma linpeas.sh (scaricatevelo prima!!)
 
 ```bash
