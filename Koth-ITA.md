@@ -15,7 +15,7 @@ le macchine che analizziamo sono:
 - Space-Jam
 - offline
 - food
-- panda
+- [panda](macchine/PANDA.md)
 
 so che mancano alcune ma preferisco mettere le macchine per principianti e farvi capire i passaggi che seguono ovviamente alcune sono molto complesse e anche io mi ritrovo tutt'oggi in difficoltà
 
