@@ -1,6 +1,6 @@
 # SHREK
 
-iniziamo con uno scan della macchina 
+iniziamo con uno scan della macchina per torvare le porte apere e i servizi che ci girano sopra
 
 ```bash
 nmap shrek.thm -sV -sC 
@@ -32,12 +32,12 @@ chmod 600 id_rsa
 
 entriamo in shh
 
-## ssh
+## SSH
 
 ```bash
 ssh -i id_rsa shrek@shrek.thm
 ```
-## privesc 
+## PRIVILEGE ESCALATION
 
 portiamo linPEAS.sh sulla macchina (scaricatevelo prima!!)
 sulla nostra macchina apriamo un http dove si trova lo script
