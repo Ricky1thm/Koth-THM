@@ -13,9 +13,9 @@ le macchine che analizziamo sono:
 - [Tyler](MACCHINE/TYLER.md)
 - [Lion](MACCHINE/LION.md)
 - [Space-Jam](MACCHINE/SPACE-JAM.md)
-- [offline](MACCHINE/OFFLINE.md)
-- [food](MACCHINE/FOOD.md)
-- [panda](MACCHINE/PANDA.md)
+- [Offline](MACCHINE/OFFLINE.md)
+- [Food](MACCHINE/FOOD.md)
+- [Panda](MACCHINE/PANDA.md)
 
 so che mancano alcune ma preferisco mettere le macchine per principianti e farvi capire i passaggi che seguono ovviamente alcune non elencate sono molto complesse e anche'io mi ritrovo tutt'oggi in difficoltà
 
