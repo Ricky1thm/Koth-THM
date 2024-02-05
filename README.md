@@ -1,4 +1,5 @@
 # INTRODUZIONE
+## consiglio per principianti guida comandi [qui](TOOLS.md)
 
 ciao a tutti, parto dicendo che questo è un progetto che stavo pensado di fare già da quando avevo iniziato a studiare su TryHackMe. 
 principalmente ho notato che nella community italiana ci sono pochi spunti da dove prendere consigli. molte volte mi sono ritrovato a fare scan oppure bloccato senza la possibilità di fare privesc oppure non sapendo come procedere.
