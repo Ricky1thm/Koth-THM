@@ -2,7 +2,7 @@
 
 ### ENUMERAZIONE
 
-scan della macchina per torvare possibili porte e la versione di queste. spiegazione [NMAP](Koth-THM/TOOLS.md)
+scan della macchina per torvare possibili porte e la versione di queste.
 
 ```bash
 nmap food.thm -sV -sC 
@@ -62,7 +62,6 @@ ecco un utente con la sua password e un flag!
 entriamo in ssh.
 
 ## SSH
-spiegazione [ssh](TOOLS.md)
 ```bash
 ssh ramen@food.thm
 ```
