@@ -14,7 +14,7 @@ le macchine che analizziamo sono:
 - Lion
 - Space-Jam
 - offline
-- food
+- [food](MACCHINE/FOOD.md)
 - [panda](MACCHINE/PANDA.md)
 
 so che mancano alcune ma preferisco mettere le macchine per principianti e farvi capire i passaggi che seguono ovviamente alcune sono molto complesse e anche io mi ritrovo tutt'oggi in difficoltà
