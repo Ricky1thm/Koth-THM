@@ -1,7 +1,7 @@
 ## HACKERS
-partiamo con uno scan delle porte
 
-### enum
+## ENUMERAZIONE
+partiamo con uno scan delle porte per cercare porte aperte e i servizi che ci girano sopra.
 
 ```bash
 nmap HACKERS.thm -sV -sC 
