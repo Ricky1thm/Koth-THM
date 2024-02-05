@@ -12,7 +12,7 @@ le macchine che analizziamo sono:
 - [Sherk](MACCHINE/SHREK.md)
 - [Tyler](MACCHINE/TYLER.md)
 - [Lion](MACCHINE/LION.md)
-- [Space-Jam](MACCHINE/SPACE-JAM.md)
+- [Space-Jam](MACCHINE/SPACE JAM.md)
 - [offline](MACCHINE/OFFLINE.md)
 - [food](MACCHINE/FOOD.md)
 - [panda](MACCHINE/PANDA.md)
