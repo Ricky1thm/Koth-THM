@@ -1,6 +1,6 @@
 # FORTUNE
 
-# ENUMERAZIONE
+## ENUMERAZIONE
  
 scan con nmap per verificare le porte aperte e le versioni dei servizi che ci girano sopra
 ```bash
@@ -12,7 +12,7 @@ se notate facendo partire successivamente un altro scan sulla porta 3333 e dando
 bene ragazzi quello è un base64 cosa fare quando abbiamo un base64? decodarlo ovvio! cosi facendo ci restituisce infomazioni interessanti. quindi ora sappiamo che 
 dentro quella porta possiamo aspettarci un file zip. andiamo a prenderlo.
 
-### NETCAT
+## NETCAT
 
 una volta trovata qusta porta perchè non ci mettiamo in ascolto e vediamo cosa ci dice?
 
@@ -57,7 +57,7 @@ ssh fortuna@fortune.thm
 password:
 ```
 
-# PRIVILEGE ESCALATION
+## PRIVILEGE ESCALATION
 
 prima che inizi consiglio di visitare il sito GTFO.BINS per spunti interessanti sul privilege escalation
 
